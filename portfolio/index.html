@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet"href="css/phone.css">
+        <script type="text/javascript" src="activity.js"></script>
+        <script type="text/javascript" src="phone.js"></script>
+        <script src="https://kit.fontawesome.com/d19ba1116a.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div id="header">
+
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+
+                    <ul id="sidemenu">
+                        <li><a href="#HOME">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span>Sarthak</span> <br/>Gade From India</h1>
+            </div>
+        </div>
+        
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/me.jpg">
+                        </div>
+                        <!-----------------about me-------------------->
+                        <div class="about-col-2">
+                            <h1 class="subtitle">About Me</h1>
+                            <p>Web development is a very crucial process that can lead your business to great success or bring it down to failure. By using it wisely, website designing and development play an important role in welcoming traffic and converting it into leads.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Eduction</p>
+                            </div>
+                            <div class="tab-content active-tab" id="skill">
+                                <ul>
+                                    <li><span>Frontend Development</span><br>Designing UI/Web Interfaces</li>
+                                    <li><span>Web Development</span>|<br>Web App Development</li>
+                                    <li><span>Fullstack Development</span><br>Website create with Frontend,<br/>Backend & Strong Database</li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="experience">
+                                <ul>
+                                    <li><span>jan-2021 - Cureent</span><br>Work On Frontend,Backend & Databses +<br/> Trainning with Disha Computers+ freelancing </li>
+                                    <li><span>jan-11 to current</span>|<br>Work with BharatIntern AS Web Developer</li>
+                                    <li><span>jan-1 to jan-31</span><br/>Work with InternPi AS Web Developer</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content" id="education">
+                                <ul>
+                                    <li><span>2021-24</span><br>BCA From SPPU</li>
+                                    <li><span>2020-21</span>|<br>HSC From Maharashtra Stateboard</li>
+                                    <li><span>2018-19</span><br/>SSC From Maharashtra StateBoard </li>
+                                </ul>  
+                            </div>      
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+<!------------------------------------Services---------------------------------------------------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i><br/><br/>
+                    <h2>Web Design</h2>
+                    <p>I'm Create beutiful responsive websites as per your requirement using programing languages.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i><br/><br/>
+                    <h2>Frontend Design</h2>
+                    <p>I'm Create beutiful Frontend Design  as  per your requirement using frontend frameworks.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        <!----------------------------------------------------portfolio----------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpeg">
+                    <div class="layer">
+                        <h3>Social Media Web Pages</h3>
+                        <p>We Create multiple Social media platforms as per Customer Requirements.
+                            And also create clone of the popular social media platforms.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work2.jpeg">
+                    <div class="layer" >
+                        <h3>Management Websites</h3>
+                        <p>We Create multiple feilds Management websites as per Customer Requirements.
+                            For ex. College Management,Hotel Management,Etc
+                         </p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work3.jpeg">
+                    <div class="layer">
+                        <h3>Ecommerece Websites</h3>
+                        <p>We are Created multiple Ecoomerece Website as per Customer Requirements.
+                            For ex.Shop websites
+                         </p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-------------------------------------contact------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>gadesarthak64@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9665450417</p>
+                    <div class="social-icon">
+
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter Your Full Name" required/>
+                        <input type="email" name="E-mail" placeholder="Enter Your E-mail" required/>
+                        <textarea name="Meassage" rows="5"placeholder="Enter Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright @ Sarthak. <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+
+            }
+
+            function closemenu() {
+                sidemeu.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>
